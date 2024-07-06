@@ -18,6 +18,9 @@ export const getDesignTokens = (mode) => ({
           favColor: {
             main: grey[300],
           },
+          BgMenu: {
+            main: "#F6F9FC",
+          },
         }
       : {
           // palette values for dark mode
@@ -30,6 +33,9 @@ export const getDesignTokens = (mode) => ({
           },
           text: {
             primary: "#fff",
+          },
+          BgMenu: {
+            main: "#252b32",
           },
         }),
   },
